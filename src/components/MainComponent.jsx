@@ -6,7 +6,7 @@ const MainComponent = () => {
   return (
     <div>
       <div >
-      <div className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 text-white h-full'>
+      <div className='mx-auto min-h-screen max-w-screen-xl px-[50px] font-sans text-white h-full'>
         <div className='grid grid-cols-1 md:grid-cols-5'>
                 <div className='px-[50px] py-[100px] col-span-1 md:col-start-1 md:col-span-2 fixed-screen'>
                     <LeftConstant/>
