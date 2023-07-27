@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-  <div className='pt-[150px] pl-[100px]'>
+  <div id="projects" className='pt-[100px] pl-[100px]'>
   <h2 class="font-bold uppercase pb-[20px] text-[#01e2c7]">Projects</h2>   
    <ul class="group/list">
       <li class="mb-12 py-[20px]">
