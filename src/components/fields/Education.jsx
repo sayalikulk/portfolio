@@ -3,9 +3,9 @@ import React from 'react'
 const Experience = () => {
   return (
      
-    <div id="education" className='px-[100px] pt-[100px]'>  
+    <div id="education" className='p-[50px] md:px-[100px] md:pt-[100px]'>  
     <h2 class="font-bold uppercase pb-[40px] text-[#01e2c7]">EDUCATION</h2> 
-    <div className='pl-[50px]'>
+    <div className='pl-[20px] md:pl-[50px]'>
     <ol class="pl-[30px] relative border-l border-gray-200 dark:border-gray-700">   
           <li class="mb-10 ml-6 ">            
               <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-black dark:ring-gray-900" style={{backgroundColor: "#000000"}}>
