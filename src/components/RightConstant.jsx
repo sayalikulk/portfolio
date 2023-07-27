@@ -4,6 +4,8 @@ import About from './fields/About'
 import Projects from './fields/Projects'
 import Contact from './fields/Contact'
 import Education from './fields/Education'
+import LinkToResume from './fields/LinkToResume'
+
 
 const RightConstant = () => {
   return (
@@ -12,6 +14,7 @@ const RightConstant = () => {
         <Education/>
         <Experience/>
         <Projects/>
+        <LinkToResume/>
         <Contact/>
     </div>
   )
