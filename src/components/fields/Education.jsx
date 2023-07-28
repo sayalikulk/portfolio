@@ -16,7 +16,7 @@ const Experience = () => {
       <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 text-white">North Carolina State University
               {/* <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">Latest</span> */}
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2023 - Present</time>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2023 - December 2024</time>
               <p class="mb-4 italic text-base font-normal text-gray-500 dark:text-gray-400">MS in Computer Science</p>
               {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 mr-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
           <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
@@ -30,7 +30,7 @@ const Experience = () => {
                   </svg>
               </span>
               <h3 class="mb-1 text-lg font-semibold text-gray-900 text-white">Sardar Patel Institute of Technology</h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2017 - May 2021</time>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2017 - May 2021</time>
               <p class="text-base italic font-normal text-gray-500 dark:text-gray-400">Bachelor of Technlology, Computer Science | CGPA: 9.07/10</p>
           </li>
 
