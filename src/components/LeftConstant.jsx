@@ -22,9 +22,6 @@ const LeftConstant = () => {
         <li>
           <SectionScroll name="Projects" link="projects" />
         </li>
-        <li>
-          <SectionScroll name="Contact" link="contact" />
-        </li>
       </ul>
 
 {/* <nav class="nav hidden lg:block" aria-label="In-page jump links">
