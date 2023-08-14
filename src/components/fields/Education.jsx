@@ -37,7 +37,7 @@ const Experience = () => {
       </ol>
     </div>   
       <div class="mt-12" className='pt-[50px]'>
-        <a class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Résumé" href="https://drive.google.com/file/d/1MWtdiv6A1SDGS9Dqm9dSND2LJlEEAgf1/view?usp=sharing">
+        <a class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Résumé" href="https://drive.google.com/file/d/1MWtdiv6A1SDGS9Dqm9dSND2LJlEEAgf1/view?usp=sharing" target="_blank">
           <span>
             <span class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
             </span>
