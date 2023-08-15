@@ -16,6 +16,7 @@ const MainComponent = () => {
                 </div>
             </div>   
       </div>
+      
     </div>
     </div>
     

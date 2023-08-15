@@ -4,16 +4,6 @@ import { Link } from 'react-scroll'
 
 const SectionScroll = (props) => {
 
-  const scrollToAnchor = (anchor) => {
-    const anchorElement = document.getElementById(anchor);
-
-    if (anchorElement) {
-      anchorElement.scrollIntoView({
-        behavior: 'smooth',
-      });
-    }
-  };
-
     const {name , link} = props;
 
     return (

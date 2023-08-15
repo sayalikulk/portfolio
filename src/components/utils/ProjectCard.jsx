@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const ProjectCard = props => {
-    const { project_title, project_description,project_url,tech_used } = props;
+    const { project_title, project_description,project_url,tech_used, project_image } = props;
     return (
+      <div className='pb-[50px]'>
         <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
         <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-[#ffffff1a] lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
         <div class="z-10 sm:order-2 sm:col-span-6">
@@ -35,7 +36,8 @@ const ProjectCard = props => {
                  })}
            </ul>
         </div>
-        <img alt="" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style={{color:"transparent"}} srcset="/ProjectIcon.png&amp;w=256&amp;q=75 1x, /ProjectIcon.png&amp;w=640&amp;q=75 2x" src="/ProjectIcon.png&amp;w=640&amp;q=75"></img>
+        <img alt="" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style={{color:"transparent"}} src={project_image}></img>
+      </div>
      </div>
     )
 }
