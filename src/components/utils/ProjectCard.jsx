@@ -30,7 +30,7 @@ const ProjectCard = props => {
                  })}
            </ul>
         </div>
-        <img alt="" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style={{color:"transparent"}} src={project_image}></img>
+        <img alt="" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" class=" transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style={{color:"transparent"}} src={project_image}></img>
       </div>
      </div>
     )
@@ -39,3 +39,5 @@ const ProjectCard = props => {
 ProjectCard.propTypes = {}
 
 export default ProjectCard
+
+{/* <img alt="" loading="lazy" width="200" height="48" decoding="async" data-nimg="1" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style={{color:"transparent"}} src={project_image}></img> */}

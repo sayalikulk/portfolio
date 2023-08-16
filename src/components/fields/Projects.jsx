@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectCard from '../utils/ProjectCard'
 import algoBotImage from '../../images/algoBotImage.jpg'
 import project2 from '../../images/hello.jpeg'
+import defaultProjectImage from '../../images/defaultProjectImage.png'
 
 
 const Projects = () => {
@@ -18,7 +19,7 @@ const Projects = () => {
         </ul>
     }
     tech_used={["Natural Language Processing (NLP)", "Data Science", "Data Analysis++"]}
-    project_image={algoBotImage}
+    project_image={defaultProjectImage}
 />
 
 
@@ -30,7 +31,7 @@ const Projects = () => {
         </ul>
     }
     tech_used={["Natural Language Processing (NLP)", "Data Science", "Data Analysis++"]}
-    project_image={"https://lottie.host/c2fc99e0-f162-4a28-ad9c-b7e8e7f9cfa0/MkFluIOnry.lottie"}
+    project_image={defaultProjectImage}
 />
 
 
