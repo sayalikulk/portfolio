@@ -29,7 +29,7 @@ const ExperienceCard = props => {
                           <div class="text-slate-500" aria-hidden="true">{role}</div>
                         </div>
                     </h3>
-                    <p class="mt-2 text-sm leading-normal">{description}</p>
+                    <p class="mt-2 text-sm leading-normal text-gray-500 dark:text-gray-400">{description}</p>
                     <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                     {skills.map((skill, index) => {
                                 return <li class="mr-1.5 mt-2">

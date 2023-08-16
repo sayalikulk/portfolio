@@ -30,7 +30,7 @@ const Projects = () => {
         </ul>
     }
     tech_used={["Natural Language Processing (NLP)", "Data Science", "Data Analysis++"]}
-    project_image={project2}
+    project_image={"https://lottie.host/c2fc99e0-f162-4a28-ad9c-b7e8e7f9cfa0/MkFluIOnry.lottie"}
 />
 
 
