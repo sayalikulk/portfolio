@@ -11,3 +11,8 @@ const About = () => {
 }
 
 export default About
+
+
+
+
+// When I’m not at the computer, I’m usually trekking, spending time with my friends, or watching Formula One.

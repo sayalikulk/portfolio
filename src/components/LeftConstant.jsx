@@ -7,8 +7,9 @@ const LeftConstant = () => {
 
     <div>
       <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Bhavya Ahir</a></h1>
-      <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Hobbyist software developer and a tinkerer</h2>
-      {/* <p class="mt-4 max-w-xs leading-normal">Hobbyist software developer and a tinkerer.</p> */}
+      <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"> CS Grad at <span style={{color: '#ff3030',fontWeight: 'bold'  }}>NCSU</span> </h2>      {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at NCSU</h2> */}
+      <p class="mt-4 max-w-xs leading-normal">Hobbyist software developer and a tinkerer.</p>
+      {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at <span style="color:#771d1d;">NCSU</span></h2> */}
       <ul className='pt-[20px]'>
         <li>
           <SectionScroll name="About" link="about" />
