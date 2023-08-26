@@ -5,6 +5,10 @@
 
 }
 
+.nav-text{
+  color: '#01e2c7';
+}
+
 @media screen and (max-width: 768px) {
     .fixed-screen {
       position: relative;

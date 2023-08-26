@@ -4,7 +4,7 @@ const Experience = () => {
   return (
      
     <div id="education" className='p-[50px] md:px-[100px] md:pt-[100px]'>  
-    <h2 class="font-bold uppercase pb-[40px] text-[#01e2c7]">EDUCATION</h2> 
+    <h2 id="education-title" class="font-bold uppercase pb-[40px] text-[#01e2c7]">EDUCATION</h2> 
     <div className='pl-[20px] md:pl-[50px]'>
     <ol class="pl-[30px] relative border-l border-gray-200 dark:border-gray-700">   
           <li class="mb-10 ml-6 ">            

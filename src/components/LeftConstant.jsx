@@ -11,18 +11,7 @@ const LeftConstant = () => {
       <p class="mt-4 max-w-xs leading-normal text-gray-500 dark:text-gray-400">Hobbyist software developer and a tinkerer.</p>
       {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at <span style="color:#771d1d;">NCSU</span></h2> */}
       <ul className='pt-[20px]'>
-        <li>
-          <SectionScroll name="About" link="about" />
-        </li>
-        <li>
-          <SectionScroll name="Education" link="education" />
-        </li>
-        <li>
-          <SectionScroll name="Experience" link="experience" />
-        </li>
-        <li>
-          <SectionScroll name="Projects" link="projects" />
-        </li>
+        <SectionScroll/>
       </ul>
 
 {/* <nav class="nav hidden lg:block" aria-label="In-page jump links">

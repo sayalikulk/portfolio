@@ -8,7 +8,7 @@ import defaultProjectImage from '../../images/defaultProjectImage.png'
 const Projects = () => {
   return (
   <div  id="projects" className='p-[50px] md:pt-[100px] md:pl-[100px]'>
-  <h2 class="font-bold uppercase pb-[40px] text-[#01e2c7]">Projects</h2>   
+  <h2 id="project-title" class="font-bold uppercase pb-[40px] text-[#01e2c7]">Projects</h2>   
   <ProjectCard
     project_title="Algo Trading Bot"
     project_description={

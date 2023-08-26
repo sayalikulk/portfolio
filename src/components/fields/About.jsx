@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="p-[50px] md:pl-[100px] md:pr-[50px] md:py-[100px]"
     >
-      <h2 class="font-bold uppercase pb-[20px] text-[#01e2c7]">About</h2>   
+      <h2 id="about-title" class="font-bold uppercase pb-[20px] text-[#01e2c7]">About</h2>   
       <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
         Back in 2020, I worked on a project related to algorithmic trading,
         which introduced me to the fintech field—a passion I've held since. I
