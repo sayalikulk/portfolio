@@ -89,7 +89,7 @@ const SectionScroll = () => {
         <li>
           <Link to='projects' spy={true} smooth={true} offset={0} duration={500}>
             <div class="group flex items-center py-2 active">
-                <span class={`nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-[#01e2c7] group-focus-visible:w-16 group-focus-visible:bg-[#01e2c7] ${showHoverEffectProjects ? 'bg-[#01e2c7] w-16 text-[#01e2c7]' : ''}`}></span>
+                <span class={`nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-[#01e2c7] group-focus-visible:w-16 group-focus-visible:bg-[#01e2c7] ${showHoverEffectProjects ? 'bg-[#01e2c7] w-16' : ''}`}></span>
                 <span class={`nav-text text-xs font-bold uppercase tracking-widest group-hover:text-[#01e2c7] group-focus-visible:text-[#01e2c7] ${showHoverEffectProjects ? 'text-[#01e2c7]' : 'text-slate-400'}`}>Projects</span>
             </div>
           </Link>
