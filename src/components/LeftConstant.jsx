@@ -7,21 +7,12 @@ const LeftConstant = () => {
 
     <div>
       <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Bhavya Ahir</a></h1>
-      <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"> CS Grad at <span style={{color: '#ff3030',fontWeight: 'bold'  }}>NCSU</span> </h2>      {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at NCSU</h2> */}
+      <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"> CS Grad Student at <span style={{color: '#01e2c7',fontWeight: 'bold'  }}>NCSU</span> </h2>      {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at NCSU</h2> */}
       <p class="mt-4 max-w-xs leading-normal text-gray-500 dark:text-gray-400">Hobbyist software developer and a tinkerer.</p>
       {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at <span style="color:#771d1d;">NCSU</span></h2> */}
       <ul className='pt-[20px]'>
         <SectionScroll/>
       </ul>
-
-{/* <nav class="nav hidden lg:block" aria-label="In-page jump links">
-   <ul class="mt-16 w-max">
-      <li><a class="group flex items-center py-3 active" href="#about"><span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span></a></li>
-      <li><a class="group flex items-center py-3" href="#experience"><span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span></a></li>
-      <li><a class="group flex items-center py-3" href="#projects"><span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span></a></li>
-   </ul>
-</nav> */}
-
 
       <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
         <li class="mr-5 text-xs">
