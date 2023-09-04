@@ -27,21 +27,21 @@ const SectionScroll = () => {
         }
         if (targetSectionEducation){
           setTimeout(() => {
-            const isInView = isInViewport(targetSectionEducation);
+            const isInView = isInViewport(targetSectionEducation) && !isInViewport(targetSectionAbout);
             console.log('Education Is in view:', isInView);
             setShowHoverEffectEducation(isInView);
           }, 100); // Adjust the delay as needed
         }
         if (targetSectionExperience){
           setTimeout(() => {
-            const isInView = isInViewport(targetSectionExperience);
+            const isInView = isInViewport(targetSectionExperience) && !isInViewport(targetSectionEducation);
             console.log('Experience Is in view:', isInView);
             setShowHoverEffectExperience(isInView);
           }, 100); // Adjust the delay as needed
         }
         if (targetSectionProjects){
           setTimeout(() => {
-            const isInView = isInViewport(targetSectionProjects);
+            const isInView = isInViewport(targetSectionProjects) && !isInViewport(targetSectionExperience);
             console.log('Projects Is in view:', isInView);
             setShowHoverEffectProjects(isInView);
           }, 100); // Adjust the delay as needed
