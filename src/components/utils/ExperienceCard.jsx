@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const ExperienceCard = props => {
-    const { timeline, role, name, description, skills } = props;
+    const { timeline, role, name, description, skills, href } = props;
     return (
         <div className='py-[20px]'>
             <div class="mb-12">
@@ -12,7 +12,7 @@ const ExperienceCard = props => {
                   <div class="z-10 sm:col-span-6">
                     <h3 class="font-medium leading-snug text-slate-200">
                         <div>
-                          <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://www.jpmorganchase.com/" target="_blank" rel="noreferrer" aria-label="Software Engineer at JP Morgan & Chase">
+                          <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href={href} target="_blank" rel="noreferrer" aria-label="Software Engineer at JP Morgan & Chase">
                               <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                               <span>
                                 

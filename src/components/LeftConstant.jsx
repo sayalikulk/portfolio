@@ -6,8 +6,8 @@ const LeftConstant = () => {
   // <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
 
     <div>
-      <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Bhavya Ahir</a></h1>
-      <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"> CS Grad Student at <span style={{color: '#01e2c7',fontWeight: 'bold'  }}>NCSU</span> </h2>      {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at NCSU</h2> */}
+      <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"><a href="/">Sayali Kulkarni</a></h1>
+      <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"> Software Engineer at <span style={{color: '#01e2c7',fontWeight: 'bold'  }}>JPMorgan Chase</span> </h2>      {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at NCSU</h2> */}
       <p class="mt-4 max-w-xs leading-normal text-gray-500 dark:text-gray-400">Hobbyist software developer and a tinkerer.</p>
       {/* <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">CS Grad at <span style="color:#771d1d;">NCSU</span></h2> */}
       <ul className='pt-[20px]'>
