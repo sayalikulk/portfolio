@@ -8,9 +8,7 @@ const About = () => {
     >
       <h2 id="about-title" class="font-bold uppercase pb-[20px] text-[#01e2c7]">About</h2>   
       <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-        Back in 2020, I worked on a project related to algorithmic trading,
-        which introduced me to the fintech field—a passion I've held since. I
-        began my career as a software developer for
+        Working as a Software Developer at 
         <a> </a>
         <a
           class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -18,31 +16,11 @@ const About = () => {
           target="_blank"
           rel="noreferrer"
         >
-          JPMorgan & Chase's
+          JPMorgan Chase, 
         </a>
         <a> </a>
-        regulatory tech team, expanding my exposure and understanding of
-        fintech. Fast-forward to today, I am pursuing a master's in
+        in Accounting and Regulatory reporting team, focused upon accounting of Trades, Valuations and Settlements, followed by generation and transmission of general ledger entries to financial controllers. 
         <a> </a>
-        <a
-          class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Computer science
-        </a>
-        <a> </a>
-        with a minor in
-        <a> </a>
-        <a
-          class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-          target="_blank"
-          rel="noreferrer"
-        >
-          financial mathematics
-        </a>
-        <a> </a>, a decision driven by my eagerness to delve profoundly into
-        this field.
       </p>
       <br></br>
 
@@ -53,8 +31,8 @@ const About = () => {
       </p>
       <br></br>
       <p class="mb-4 class=mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-        When I’m not at the computer, I’m usually trekking, spending time with
-        my friends, or watching Formula One.
+        When I’m not at the computer, I’m usually reading, spending time with
+        my friends, or painting.
       </p>
     </div>
   );
